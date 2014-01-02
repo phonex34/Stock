@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/reset"
+	android:layout_width="135dp"
+	android:layout_height="wrap_content"
+	android:text="Reset all"
+	android:layout_alignTop="@+id/change_pass"
+	android:layout_alignParentRight="true" />
+<Button
+	android:id="@+id/change_pass"
+	android:layout_width="135dp"
+	android:layout_height="wrap_content"
+	android:text="Change Pass"
+	android:layout_below="@+id/tv2"
+	android:layout_alignParentLeft="true" />
+<TextView
+	android:id="@+id/tv2"
+	android:layout_width="320dp"
+	android:layout_height="99dp"
+	android:text="These functions need password to process"
+	android:textSize="18dp"
+	android:layout_below="@+id/row2"
+	android:layout_alignParentLeft="true" />
+<TextView
+	android:id="@+id/row2"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="Security"
+	android:textStyle="bold"
+	android:textSize="15dp"
+	android:layout_below="@+id/Deposit"
+	android:layout_alignParentLeft="true" />
+<Button
+	android:id="@+id/Deposit"
+	android:layout_width="135dp"
+	android:layout_height="wrap_content"
+	android:text="Deposit"
+	android:layout_alignTop="@+id/withdraw"
+	android:layout_alignParentRight="true" />
+<Button
+	android:id="@+id/withdraw"
+	android:layout_width="135dp"
+	android:layout_height="wrap_content"
+	android:text="Withdraw"
+	android:layout_below="@+id/tv1"
+	android:layout_alignParentLeft="true" />
+<TextView
+	android:id="@+id/tv1"
+	android:layout_width="320dp"
+	android:layout_height="127dp"
+	android:textSize="18dp"
+	android:text="TextView"
+	android:layout_below="@+id/row1"
+	android:layout_alignParentLeft="true" />
+<TextView
+	android:id="@+id/row1"
+	android:layout_width="320dp"
+	android:layout_height="wrap_content"
+	android:text="User Statistic"
+	android:textStyle="bold"
+	android:textSize="15dp"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true" />
+</RelativeLayout>

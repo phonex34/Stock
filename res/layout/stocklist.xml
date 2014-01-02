@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+ <!--  android:background="@drawable/list_selector"--> 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="10dp"
+        android:src="@drawable/arrow" />
+        
+    <CheckBox 
+        android:id="@+id/check_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="14dp"
+        android:button="@drawable/checkbox_selector"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/stockName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:textColor="@color/stockName_color"
+        android:textSize="25dip"
+        android:typeface="sans"/>
+    <TextView 
+        android:id="@+id/stockBuyPrice"
+     	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stockName"
+        android:layout_alignBottom="@+id/stockName"
+        android:layout_marginLeft="120dp"
+     	android:textSize="20dip"
+     	android:textStyle="bold"
+        android:text="buy price" />
+    <TextView 
+        android:id="@+id/stockChangePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stockBuyPrice"
+        android:layout_alignBottom="@+id/stockBuyPrice"
+        android:layout_alignParentRight="true"
+        android:text="TextView"
+        android:textSize="20dip"
+        />
+    <TextView 
+        android:id="@+id/stockCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/check_stock"
+        android:layout_alignBottom="@+id/check_stock"
+        android:layout_alignLeft="@+id/stockName"
+        android:text="" 
+        android:textColor="#343434"
+        android:textSize="12dip"
+    />
+
+    <ImageView
+        android:id="@+id/imageTriangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="170dp"
+        android:layout_alignBottom="@+id/stockChangePrice"
+       	 />
+
+</RelativeLayout>

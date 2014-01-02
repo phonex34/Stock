@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hint_color">#cc9900</color>
+    <color name="stockName_color">#040404</color>
+    <color name="stockBuyPrice_color">#ff3300</color>
+    <color name="stock_name">#fff</color>
+    <color name="second_name">#AAAAAA</color>
+     <color name="second_atri">#EEEEEE</color>
+</resources>
